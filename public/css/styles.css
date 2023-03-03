@@ -1,0 +1,27 @@
+.top-nav-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  /* background-color: aqua; */
+}
+
+.top-nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 40px;
+  color: hsl(257, 7%, 63%);
+  text-decoration: none;
+}
+
+.top-nav-main-name {
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(255, 11%, 22%);
+}
+
+.top-nav-link:hover {
+  color: hsl(255, 11%, 22%);
+}
