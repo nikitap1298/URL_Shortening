@@ -32,7 +32,7 @@ body {
 
 /* -----------------------------------  Introduction Section ----------------------------------- */
 .introduction-div {
-  display:  flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 60px 0 0 200px;
@@ -85,4 +85,43 @@ body {
   color: hsl(255, 11%, 22%);
 }
 
-/* -----------------------------------  Add URL Section ----------------------------------- */
+/* -----------------------------------  Shorten a Link Section ----------------------------------- */
+.shorten-a-link-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(257, 27%, 26%);
+  height: 100px;
+  margin: 60px 200px 0 200px;
+  border-radius: 8px;
+}
+
+.shorten-a-link-div input {
+  width: 70%;
+  height: 35%;
+  margin: 0 20px 0 30px;
+  border-radius: 8px;
+  border: none;
+  text-indent: 20px;
+}
+
+.shorten-a-link-div button {
+  width: 20%;
+  height: 37%;
+  margin: 0 30px 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.shorten-a-link-div button:hover {
+  color: hsl(255, 11%, 22%);
+}
