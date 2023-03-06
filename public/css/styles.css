@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+
 /* -----------------------------------  Top Navigation Bar ----------------------------------- */
 .top-nav-div {
   display: flex;
@@ -85,6 +86,13 @@ body {
   color: hsl(255, 11%, 22%);
 }
 
+/* -----------------------------------  Placeholder Section ----------------------------------- */
+.placeholder-div {
+  margin-top: 110px;
+  height: 100px;
+  background-color: rgba(239, 241, 248, 1);
+}
+
 /* -----------------------------------  Shorten a Link Section ----------------------------------- */
 .shorten-a-link-div {
   display: flex;
@@ -92,7 +100,7 @@ body {
   align-items: center;
   background-color: hsl(257, 27%, 26%);
   height: 100px;
-  margin: 60px 200px 0 200px;
+  margin: -150px 200px 0 200px;
   border-radius: 8px;
 }
 
@@ -124,4 +132,10 @@ body {
 
 .shorten-a-link-div button:hover {
   color: hsl(255, 11%, 22%);
+}
+
+/* -----------------------------------  Advanced Statistics Section ----------------------------------- */
+.advanced-statistics-div {
+  background-color: rgba(239, 241, 248, 1);
+  /* height: 100px; */
 }
