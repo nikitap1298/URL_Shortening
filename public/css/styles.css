@@ -86,8 +86,8 @@ body {
   color: hsl(255, 11%, 22%);
 }
 
-/* -----------------------------------  Placeholder Section ----------------------------------- */
-.placeholder-div {
+/* -----------------------------------  First Placeholder Section ----------------------------------- */
+.first-placeholder-div {
   margin-top: 110px;
   height: 150px;
   background-color: rgba(239, 241, 248, 1);
@@ -165,4 +165,52 @@ body {
   font-size: 15px;
   color: hsl(257, 7%, 63%);
   text-align: center;
+}
+
+/* 3 Advantages Section  */
+.three-advantages-section {
+  margin: 100px 200px 0 200px;
+  display: flex;
+}
+
+.advantage {
+  background-color: white;
+  height: 200px;
+}
+
+.advantage h1 {
+  margin: 5% 0 0 10%;
+  color: hsl(255, 11%, 22%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.advantage p {
+  margin: 5% 5% 5% 10%;
+  color: hsl(257, 7%, 63%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.second-advantage {
+  margin-top: 25px;
+}
+
+.third-advantage {
+  margin-top: 50px;
+}
+
+.advantage-green-line {
+  margin-top: 100px;
+  width: 50px;
+  height: 5px;
+  background-color: hsl(180, 66%, 49%);
+}
+
+/* -----------------------------------  Second Placeholder Section ----------------------------------- */
+.second-placeholder-div {
+  background-color: rgba(239, 241, 248, 1);
+  height: 150px;
 }
