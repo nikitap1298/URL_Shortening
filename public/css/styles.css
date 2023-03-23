@@ -233,3 +233,8 @@ body {
   font-weight: 700;
   font-size: 40px;
 }
+
+/* -----------------------------------  Footer Section ----------------------------------- */
+.footer-div {
+  background-color: hsl(260, 8%, 14%);
+}
