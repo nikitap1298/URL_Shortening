@@ -94,7 +94,7 @@ body {
 }
 
 /* -----------------------------------  Shorten a Link Section ----------------------------------- */
-.shorten-a-link-div {
+.shorten-a-link-form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@ body {
   border-radius: 8px;
 }
 
-.shorten-a-link-div input {
+.shorten-a-link-form input {
   width: 70%;
   height: 35%;
   margin: 0 20px 0 30px;
@@ -113,7 +113,7 @@ body {
   text-indent: 20px;
 }
 
-.shorten-a-link-div button {
+.shorten-a-link-form button {
   width: 20%;
   height: 37%;
   margin: 0 30px 0 0;
@@ -130,7 +130,7 @@ body {
   cursor: pointer;
 }
 
-.shorten-a-link-div button:hover {
+.shorten-a-link-form button:hover {
   color: hsl(255, 11%, 22%);
 }
 

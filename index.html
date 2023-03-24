@@ -465,10 +465,14 @@
     <div class="first-placeholder-div"></div>
 
     <!-- Shorten a link Section -->
-    <div class="shorten-a-link-div">
-      <input type="url" placeholder="Shorten a link here..." />
-      <button>Shorten It!</button>
-    </div>
+    <form class="shorten-a-link-form" action="/" method="post">
+      <input
+        type="url"
+        name="userURL"
+        placeholder="Shorten a link here..."
+      />
+      <button type="submit" name="submit">Shorten It!</button>
+    </form>
 
     <!-- Advances Statistics Section -->
     <div class="advanced-background-div">
