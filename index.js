@@ -17,7 +17,11 @@ app.get("/", function (req, res) {
 app.post("/", function (req, res) {
   const userURL = String(req.body.userURL)
 
-  console.log("User URL is: " + userURL)
+  if (userURL === "") {
+    console.log("User URl is empty")
+  } else {
+    console.log("User URL is: " + userURL)
+  }
 })
 
 // Listener
