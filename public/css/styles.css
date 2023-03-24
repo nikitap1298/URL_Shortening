@@ -238,3 +238,61 @@ body {
 .footer-div {
   background-color: hsl(260, 8%, 14%);
 }
+
+.footer-background-div {
+  margin: 0 200px 0 200px;
+  padding: 60px 0 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-div-main-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -10px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-div-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-div-sections h1 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-div-sections a {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: hsl(257, 7%, 63%);
+  text-decoration: none;
+}
+
+.footer-div-sections a:hover {
+  color: hsl(180, 66%, 49%);
+}
+
+.footer-div-social-medias {
+  margin-top: 10px;
+  display: flex;
+  color: white;
+}
+
+.footer-div-social-medias i {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.footer-div-social-medias i:hover {
+  color: hsl(180, 66%, 49%);
+}
