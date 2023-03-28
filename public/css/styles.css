@@ -134,6 +134,58 @@ body {
   color: hsl(255, 11%, 22%);
 }
 
+/* -----------------------------------  URL Shortening API results Sectionn ----------------------------------- */
+.api-result-div {
+  /* display: none; */
+  margin-top: 15px;
+  background-color: rgba(239, 241, 248, 1);
+}
+
+.api-result-element-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.api-result-element-div h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: hsl(257, 27%, 26%);
+}
+
+.api-result-element-div p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: hsl(180, 66%, 49%);
+}
+
+.api-result-element-div button {
+  width: 80px;
+  height: 60%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.api-result-element-div button:hover {
+  background-color: hsl(257, 27%, 26%);
+}
+
 /* -----------------------------------  Advanced Statistics Section ----------------------------------- */
 .advanced-background-div {
   background-color: rgba(239, 241, 248, 1);

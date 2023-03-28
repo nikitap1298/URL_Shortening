@@ -45,7 +45,6 @@ app.post("/", function (req, res) {
       .catch(function (error) {
         console.error(error)
       })
-      return
   }
 })
 
