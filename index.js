@@ -6,7 +6,7 @@ const app = express()
 const port = 3000
 
 // URL Shortener API
-const apiKey = ""
+const apiKey = "08b97c08dcmsh34f462cf45051eap1ca922jsnab77675da636"
 const encodedParams = new URLSearchParams()
 
 const options = {

@@ -136,6 +136,8 @@ body {
 
 /* -----------------------------------  URL Shortening API results Sectionn ----------------------------------- */
 .api-result-div {
+
+  /* display: none - if now the result doesn't exist */
   /* display: none; */
   margin-top: 15px;
   background-color: rgba(239, 241, 248, 1);
@@ -143,7 +145,6 @@ body {
 
 .api-result-element-div {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   background-color: white;
   margin-left: 200px;
@@ -152,7 +153,16 @@ body {
   border-radius: 8px;
 }
 
+.api-result-element-finished-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+}
+
 .api-result-element-div h1 {
+  margin-left: 30px;
+  width: 65%;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -197,7 +207,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 30% 0 30%;
+  margin: 0px 30% 0 30%;
+  padding-top: 100px;
   background-color: rgba(239, 241, 248, 1);
 }
 
