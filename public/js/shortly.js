@@ -17,9 +17,11 @@ function sendData(data) {
       input.placeholder = "Paste a link here!"
       button.textContent = "Paste a link!"
       button.style.background = "red"
+      window.stop()
     } else {
-        button.textContent = "Shorten it!"
-        button.style.background = "hsl(180, 66%, 49%)"
+      button.textContent = "Shorten it!"
+      button.style.background = "hsl(180, 66%, 49%)"
+      window.stop()
     }
   })
 
