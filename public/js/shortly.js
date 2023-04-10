@@ -1,5 +1,6 @@
 const input = document.getElementById("input-form")
 const button = document.getElementById("button-form")
+const apiResultsDiv = document.getElementsByClassName("api-result-div")[0]
 
 function sendData(data) {
   const XHR = new XMLHttpRequest()
@@ -21,6 +22,10 @@ function sendData(data) {
     } else {
       button.textContent = "Shorten it!"
       button.style.background = "hsl(180, 66%, 49%)"
+      apiResultsDiv.style.display = "block"
+      apiResultsDiv.querySelector("h1").textContent = input.value
+      apiResultsDiv.querySelector("div").querySelector("p").textContent =
+        "New link"
       window.stop()
     }
   })

@@ -138,7 +138,7 @@ body {
 .api-result-div {
 
   /* display: none - if now the result doesn't exist */
-  /* display: none; */
+  display: none;
   margin-top: 15px;
   background-color: rgba(239, 241, 248, 1);
 }
