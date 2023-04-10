@@ -20,35 +20,35 @@ const options = {
   data: encodedParams,
 }
 
-// Apply CSS to localhost: 3000
+// Apply CSS to localhost: 3000. Anything in public folder can be use here
 app.use(express.static("public"))
 
 // Body Parser
 app.use(bodyParser.urlencoded({ extended: true }))
 
 // GET METHOD
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html")
 })
 
 // POST METHOD
-app.post("/", function (req, res) {
+app.post("/", (req, res) => {
   const userURL = String(req.body.userURL)
 
   if (userURL !== "") {
     encodedParams.append("url", userURL)
     axios
       .request(options)
-      .then(function (response) {
+      .then((response) => {
         console.log(response.data.result_url)
       })
-      .catch(function (error) {
+      .catch((error) => {
         console.error(error)
       })
   }
 })
 
 // LISTENER METHOD
-app.listen(port, function () {
+app.listen(port, () => {
   console.log("Started server on port " + port)
 })
